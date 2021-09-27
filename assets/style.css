@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+*,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 10px;
+}
+
+.nav-link {
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.nav-link:hover {
+  color: #fd7e14 !important;
+}
+
+.landing-left {
+  background-color: #ffddb5;
+  height: 100vh;
+}
+
+.hero-left {
+  background-color: #ffddb5;
+  height: 60vh;
+}
+
+.landing-right {
+  background: url(./images/h1_hero1.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.hero-right {
+  background: url(./images/services.webp) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+}
+
+.about-right {
+  background: url(./images/about.webp) no-repeat;
+  background-position: right;
+  background-size: cover;
+  height: 60vh;
+}
+
+.caption-con {
+  width: 520px;
+}
+
+.hero-caption1 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fd7e14;
+}
+
+.hero-caption2 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.hero-caption3 {
+  font-size: 1.4rem;
+}
+
+.caption-btn {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #fff;
+  width: 200px;
+}
+
+.services-title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.services-para {
+  font-size: 1.2rem;
+}
+
+.card-img-top {
+  width: 57px;
+  height: 57px;
+}
+
+.card-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.card-text {
+  font-size: 1.2rem;
+}
+
+.ceo {
+  background: #ffddb5 url(./images/man.webp) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.ceo-bg {
+  background-color: #ffddb5;
+}
+
+.ceo-caption-bg {
+  background-color: #fff;
+}
+
+.ceo-caption {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.ceo-para {
+  font-size: 1rem;
+}
+
+.signature {
+  font-size: 3rem;
+}
+
+.about-feat {
+  margin: 5rem 0;
+}
+
+.myM {
+  margin: 5rem auto;
+  width: 50%;
+}
+
+label {
+  font-size: 1.2rem;
+}
+
+#emailHelp {
+  font-size: 1rem;
+}
+
+.features-text {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.features-image {
+  background: #ffddb5 url(./images/about2.webp) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+}
+
+footer > p {
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 992px) {
+  .landing-right {
+    display: none;
+  }
+}
